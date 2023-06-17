@@ -1,7 +1,8 @@
-document.getElementById("submit").onclick = function() {
+document.getElementById("submit").onclick = async function() {
 
-const url = document.getElementById("url").value;
-const interval = parseInt(document.getElementById("interval").value;
+var url = document.getElementById("url").value;
+var interval = parseInt(document.getElementById("interval").value);
+console.log(interval);
 
  var evil = setInterval(async function() {
 
